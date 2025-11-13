@@ -122,7 +122,7 @@ namespace DevelopmentChallenge.Data.Tests
         }
 
         [Test]
-        public void TestResumenConVariosCirculosEnItaliano()
+           public void TestResumenConVariosCirculosEnItaliano()
         {
             var circulos = new List<FormaGeometrica>
             {
@@ -130,7 +130,7 @@ namespace DevelopmentChallenge.Data.Tests
                 new FormaGeometrica(FormaGeometrica.Circulo, 4)
             };
             var resumen = FormaGeometrica.Imprimir(circulos, FormaGeometrica.Italiano);
-            Assert.AreEqual("<h1>Rapporto delle forme</h1>2 Cerchi | Area 9,42 | Perimetro 18,85 <br/>TOTAL:<br/>2 forme Perimetro 18,85 Area 9,42", resumen);
+            Assert.AreEqual("<h1>Rapporto delle forme</h1>2 Cerchi | Area 15,71 | Perimetro 18,85 <br/>TOTAL:<br/>2 forme Perimetro 18,85 Area 15,71", resumen);
         }
 
         #endregion
