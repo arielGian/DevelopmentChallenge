@@ -44,14 +44,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\Circulo.cs" />
-    <Compile Include="Classes\Cuadrado.cs" />
-    <Compile Include="Classes\FormaGeometrica.cs" />
+    <Compile Include="Classes\FormaGeometricas\Circulo.cs" />
+    <Compile Include="Classes\FormaGeometricas\Cuadrado.cs" />
+    <Compile Include="Classes\FormaGeometricas\FormaGeometrica.cs" />
     <Compile Include="Classes\Traduccion\TraductorCastellano.cs" />
     <Compile Include="Classes\Traduccion\TraductorIngles.cs" />
     <Compile Include="Classes\Traduccion\TraductorItaliano.cs" />
-    <Compile Include="Classes\Trapecio.cs" />
-    <Compile Include="Classes\TrianguloEquilatero.cs" />
+    <Compile Include="Classes\FormaGeometricas\Trapecio.cs" />
+    <Compile Include="Classes\FormaGeometricas\TrianguloEquilatero.cs" />
     <Compile Include="Interfaces\IFormaGeometrica.cs" />
     <Compile Include="Interfaces\ITraductor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
